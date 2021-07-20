@@ -1,0 +1,78 @@
+.smoothness {
+    transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.main {
+    width: 40vw;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main button {
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Uchen", serif;
+}
+
+.fab {
+    width: 20px;
+    height: 100%;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote {
+    text-align: center;
+}
+
+.fas {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.author {
+    text-align: right;
+}
+
+.main strong {
+    font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+    .main {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .fas {
+        font-size: 20px;
+    }
+
+    .main strong {
+        font-size: 20px;
+    }
+}
