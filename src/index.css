@@ -4,3 +4,9 @@ body {
   margin: 0;
   font-family: "Uchen", serif;
 }
+
+a{
+  position:absolute;
+  bottom:0;
+  left:40vw;
+}
